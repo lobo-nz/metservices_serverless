@@ -192,9 +192,9 @@ function generateChart(context, data, text) {
 }
 
 
-var metServicesBucketName = 'met-service-assesment';
+var metServicesBucketName = 'bucketname';
 var bucketRegion = 'ap-southeast-2';
-var IdentityPoolId = 'ap-southeast-2:628dabe4-6645-4c33-a4b0-7b486b98fb83';
+var IdentityPoolId = 'ap-southeast-2:XXXXXXXXXXXXXXXXX';
 
 AWS.config.update({
   region: bucketRegion,
