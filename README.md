@@ -15,4 +15,4 @@ Web Endpoint: http://met-service-assesment.s3-website-ap-southeast-2.amazonaws.c
 
 Serverless Architecture:
 
-![alt text](https://raw.githubusercontent.com/lobo-nz/metservices_serverless/master/MetServiceArch.jpeg)
+![alt text](https://raw.githubusercontent.com/lobo-nz/metservices_serverless/master/Arch.jpeg)
