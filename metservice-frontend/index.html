@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js"></script>
+</head>
+<body>
+   <div class="container">
+     <input id="csvupload" type="file" accept="text/csv">
+       <button id="addCSV" onclick="addCSVFile()">
+             Add CSV Data File
+       </button>
+  </div>
+  <div class="container">
+     <input id="jsonupload" type="file" accept="application/json">
+       <button id="addJson" onclick="addJsonFile()">
+          Add JSON Data File
+       </button>
+   </div>
+   <div class="container">
+     <button id="deleteItems" onclick="deleteAllItems()">
+        Delete All Tables Data Items
+     </button>
+   </div>
+   <div class="container">
+       <div class="chart">
+        <canvas id="myChart"></canvas>
+       </div>
+       <div class="chart">
+        <canvas id="myChart2"></canvas>
+       </div>
+   </div>
+   <div class="container">
+    <div class="chart">
+        <canvas id="myChart3"></canvas>
+    </div>
+    <div class="chart">
+        <canvas id="myChart4"></canvas>
+    </div>
+   </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script src="./assets/js/index.js"></script>
+</html>
